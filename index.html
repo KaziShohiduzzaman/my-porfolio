@@ -24,6 +24,10 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
+    <!-- Aos CDN  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!-- font awesome cdn  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
@@ -68,7 +72,7 @@
             <div class="row align-items-center">
 
                 <div class="col-lg-7 text-center text-lg-left">
-                    <h3 class="text-white font-weight-normal mb-3">Hello, my name is</h3>
+                    <h3 class="text-white font-weight-normal mb-3">Hello,</h3>
                     <h1 class="text-uppercase" style="-webkit-text-stroke: 4px #ffffff;">
                         Kazi Shohiduzzaman</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
@@ -90,7 +94,7 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5" id="about">
+    <div class="container-fluid py-5" id="about" data-aos="fade-up" data-aos-duration="1000">
         <div class="container-fluid">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-2 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
@@ -140,7 +144,7 @@
 
 
     <!-- Skill Start -->
-    <div class="container-fluid py-5" id="skill">
+    <div class="container-fluid py-5" id="skill" data-aos="fade-right" data-aos-duration="1000">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-2 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
@@ -270,7 +274,7 @@
 
 
     <!-- Qualification Start -->
-    <div class="container-fluid py-5" id="qualification">
+    <div class="container-fluid py-5" id="qualification" data-aos="fade-left" data-aos-duration="1000">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-2 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
@@ -328,7 +332,7 @@
     <!-- Qualification End -->
 
     <!-- Portfolio Start -->
-    <div class="container-fluid pt-5 pb-3" id="portfolio">
+    <div class="container-fluid pt-5 pb-3" id="portfolio" data-aos="fade-down-right" data-aos-duration="1000">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-2 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallary
@@ -345,11 +349,12 @@
                 </div>
             </div>
             <div class="row portfolio-container">
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="col-md-12 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
 
-                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(0, 0, 0, 0.281);">
                             <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
@@ -367,10 +372,11 @@
                             href="https://bike-wala-cfe0a.web.app/" target="_blank">Live-Preview</a>
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="col-md-12 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
-                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(137, 43, 226, 0.349);">
                             <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
@@ -388,10 +394,11 @@
                             href="https://travel-hunter-6a9ab.web.app/home" target="_blank">Live-Preview</a>
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                <div class="col-md-12 mb-4 portfolio-item first">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
-                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(250, 206, 11, 0.342);">
                             <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
@@ -405,10 +412,11 @@
                             href="https://specialized-hospital.web.app/" target="_blank">Live-Preview</a>
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-md-12 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
-                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(0, 140, 255, 0.322);">
                             <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
@@ -423,10 +431,11 @@
                             target="_blank">Live-Preview</a>
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-md-12 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
-                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(255, 235, 205, 0.349);">
                             <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
@@ -440,10 +449,11 @@
                             href="https://kazishohiduzzaman.github.io/IT-Solution/#" target="_blank">Live-Preview</a>
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                <div class="col-md-12 mb-4 portfolio-item second">
                     <div class="position-relative overflow-hidden mb-2">
                         <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
-                        <div class="portfolio-btn bg-danger d-flex align-items-center justify-content-center">
+                        <div class="portfolio-btn d-flex align-items-center justify-content-center"
+                            style="background-color: rgba(250, 226, 10, 0.253);">
                             <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
                                 <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
                             </a>
@@ -465,7 +475,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5" id="testimonial">
+    <div class="container-fluid py-5" id="testimonial" data-aos="zoom-in" data-aos-duration="1000">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-2 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
@@ -516,7 +526,7 @@
 
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
+    <div class="container-fluid py-5" id="contact" data-aos="zoom-in" data-aos-duration="1000">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-2 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
@@ -605,6 +615,10 @@
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>
     <script src="mail/contact.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
